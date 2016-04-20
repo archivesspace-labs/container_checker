@@ -15,7 +15,7 @@ A good way to compare CSV files is to use the [Daff](https://github.com/paulfitz
 
 There is a bash script ( cc.sh ) that will run the SQL scripts against the database, generate CSV files, run daff 
 against the CSV files, then run daff against the CSV diff to generate a HTML file that has a table that highlights the 
-changes. Sorry, this script can only be run on Linux/OS X only. You also must install the JavaScript version of Daff. 
+changes. Sorry, this script can only be run on Linux/OS X only. You also must install the JavaScript version of Daff ( npm install daff -g  )( require Nodejs )  . 
 To run it, pass in your MySQL user name, password, and DB name:
 
 ```
